@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Retry failed executions immediately,Chrome 136.0.7103.114,,,29-05-2025 15:35:33,29-05-2025 16:25:33,50m - 0.293s,FAILED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Chrome 136.0.7103.114,,,29-05-2025 15:35:33,29-05-2025 15:35:33,0.133s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC7_Verify Successful Failed,Chrome 136.0.7103.114,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,29-05-2025 15:51:23,29-05-2025 15:51:42,19.035s,FAILED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""ThisIsNotAPassword""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 136.0.7103.114,,,29-05-2025 15:51:23,29-05-2025 15:51:23,0.002s,PASSED
+Start listener action : openBrowser,Chrome 136.0.7103.114,,,29-05-2025 15:51:23,29-05-2025 15:51:30,7.579s,PASSED
+Start listener action : enableSauceLabs,Chrome 136.0.7103.114,,,29-05-2025 15:51:30,29-05-2025 15:51:30,0.002s,PASSED
+openBrowser(G_SiteURL),Chrome 136.0.7103.114,,,29-05-2025 15:51:30,29-05-2025 15:51:36,5.669s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 136.0.7103.114,,,29-05-2025 15:51:36,29-05-2025 15:51:38,2.511s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Chrome 136.0.7103.114,,,29-05-2025 15:51:38,29-05-2025 15:51:39,0.763s,PASSED
+"verifyTextPresent(""abc 123"", false)",Chrome 136.0.7103.114,,,29-05-2025 15:51:39,29-05-2025 15:51:40,0.397s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 136.0.7103.114,,,29-05-2025 15:51:40,29-05-2025 15:51:40,0.001s,PASSED
+Video,Chrome 136.0.7103.114,,,29-05-2025 15:51:42,29-05-2025 15:51:42,0.001s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC8_Verify Successful Failed - 1,Chrome 136.0.7103.114,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,29-05-2025 16:09:51,29-05-2025 16:10:09,18.787s,FAILED
+"DATA BINDING - {""(Default) Passw..."":""ThisIsNotAPassword"",""(Default) Usern..."":""John Doe""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 136.0.7103.114,,,29-05-2025 16:09:51,29-05-2025 16:09:51,0.001s,PASSED
+Start listener action : openBrowser,Chrome 136.0.7103.114,,,29-05-2025 16:09:51,29-05-2025 16:09:58,7.326s,PASSED
+Start listener action : enableSauceLabs,Chrome 136.0.7103.114,,,29-05-2025 16:09:58,29-05-2025 16:09:58,0.011s,PASSED
+openBrowser(G_SiteURL),Chrome 136.0.7103.114,,,29-05-2025 16:09:58,29-05-2025 16:10:05,7.559s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 136.0.7103.114,,,29-05-2025 16:10:05,29-05-2025 16:10:06,0.712s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Chrome 136.0.7103.114,,,29-05-2025 16:10:06,29-05-2025 16:10:07,0.712s,PASSED
+"verifyTextPresent(""abc 123"", false)",Chrome 136.0.7103.114,,,29-05-2025 16:10:07,29-05-2025 16:10:07,0.410s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 136.0.7103.114,,,29-05-2025 16:10:07,29-05-2025 16:10:07,0.001s,PASSED
+Video,Chrome 136.0.7103.114,,,29-05-2025 16:10:09,29-05-2025 16:10:09,0.000s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC9_Verify Successful Failed - 2,Chrome 136.0.7103.114,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,29-05-2025 16:25:16,29-05-2025 16:25:33,17.257s,FAILED
+"DATA BINDING - {""(Default) Passw..."":""ThisIsNotAPassword"",""(Default) Usern..."":""John Doe""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 136.0.7103.114,,,29-05-2025 16:25:16,29-05-2025 16:25:16,0.001s,PASSED
+Start listener action : openBrowser,Chrome 136.0.7103.114,,,29-05-2025 16:25:16,29-05-2025 16:25:23,6.828s,PASSED
+Start listener action : enableSauceLabs,Chrome 136.0.7103.114,,,29-05-2025 16:25:23,29-05-2025 16:25:23,0.000s,PASSED
+openBrowser(G_SiteURL),Chrome 136.0.7103.114,,,29-05-2025 16:25:23,29-05-2025 16:25:29,6.689s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 136.0.7103.114,,,29-05-2025 16:25:29,29-05-2025 16:25:30,0.621s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Chrome 136.0.7103.114,,,29-05-2025 16:25:30,29-05-2025 16:25:31,0.710s,PASSED
+"verifyTextPresent(""abc 123"", false)",Chrome 136.0.7103.114,,,29-05-2025 16:25:31,29-05-2025 16:25:31,0.360s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 136.0.7103.114,,,29-05-2025 16:25:31,29-05-2025 16:25:31,0.000s,PASSED
+Video,Chrome 136.0.7103.114,,,29-05-2025 16:25:33,29-05-2025 16:25:33,0.000s,PASSED

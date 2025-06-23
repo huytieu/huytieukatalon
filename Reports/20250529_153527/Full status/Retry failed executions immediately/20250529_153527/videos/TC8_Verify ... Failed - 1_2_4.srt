@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:00,010
+5. maximizeWindow()
+
+2
+00:00:00,013 --> 00:00:07,650
+1. openBrowser(G_SiteURL)
+
+3
+00:00:07,652 --> 00:00:08,375
+5. click(findTestObject("Page_CuraHomepage/btn_MakeAppointment"))
+
+4
+00:00:08,376 --> 00:00:09,136
+9. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+5
+00:00:09,137 --> 00:00:09,516
+13. verifyTextPresent("abc 123", false)
+
+6
+00:00:11,594 --> 00:00:11,595
+1. testCaseName = testCaseContext.getTestCaseId()
+
+7
+00:00:11,595 --> 00:00:11,596
+5. if (testCaseName.contains("Skip"))
+
+8
+00:00:11,597 --> 00:00:19,096
+1. openBrowser("http://demoaut.katalon.com")
+

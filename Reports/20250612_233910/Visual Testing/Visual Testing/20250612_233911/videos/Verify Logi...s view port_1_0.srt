@@ -1,0 +1,24 @@
+1
+00:00:00,022 --> 00:00:30,911
+1. openBrowser("https://platform.qa.katalon.com")
+
+2
+00:00:30,915 --> 00:00:30,945
+5. captureArea = new org.openqa.selenium.Rectangle(100, 200, 300, 150)
+
+3
+00:00:30,946 --> 00:00:32,106
+9. waitForElementVisible(findTestObject("TestOpsPage/lblLogIn"), 0)
+
+4
+00:00:34,136 --> 00:00:34,136
+1. testCaseName = testCaseContext.getTestCaseId()
+
+5
+00:00:34,136 --> 00:00:34,137
+5. if (testCaseName.contains("Skip"))
+
+6
+00:00:34,137 --> 00:00:42,697
+1. openBrowser("http://demoaut.katalon.com")
+

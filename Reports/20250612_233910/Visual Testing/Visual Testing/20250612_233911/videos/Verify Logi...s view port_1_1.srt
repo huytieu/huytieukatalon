@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:00,002
+5. maximizeWindow()
+
+2
+00:00:00,003 --> 00:00:11,378
+1. openBrowser("https://platform.qa.katalon.com")
+
+3
+00:00:11,378 --> 00:00:11,379
+5. captureArea = new org.openqa.selenium.Rectangle(100, 200, 300, 150)
+
+4
+00:00:11,379 --> 00:00:11,663
+9. waitForElementVisible(findTestObject("TestOpsPage/lblLogIn"), 0)
+
+5
+00:00:11,663 --> 00:00:13,175
+13. setViewPortSize(1920, 1080)
+
+6
+00:00:13,175 --> 00:00:13,471
+17. click(findTestObject("TestOpsPage/ContinueWithEmail"))
+
+7
+00:00:13,471 --> 00:00:13,909
+21. takeAreaScreenshotAsCheckpoint("areaCheckpoint", captureArea)
+
+8
+00:00:13,909 --> 00:00:14,436
+25. takeElementScreenshotAsCheckpoint("elementCheckpoint", findTestObject("TestOpsPage/email"))
+
+9
+00:00:14,436 --> 00:00:15,033
+29. takeFullPageScreenshotAsCheckpoint("fullCheckpoint")
+

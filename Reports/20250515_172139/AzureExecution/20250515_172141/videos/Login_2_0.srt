@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,111
+5. maximizeWindow()
+
+2
+00:00:00,112 --> 00:00:02,569
+1. click(findTestObject("Page_CuraHomepage/btn_MakeAppointment"))
+
+3
+00:00:02,570 --> 00:00:03,868
+5. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+4
+00:00:03,870 --> 00:00:04,960
+9. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+5
+00:00:04,961 --> 00:00:07,402
+13. click(findTestObject("Page_Login/btn_Login"))
+
+6
+00:00:07,404 --> 00:00:07,823
+17. landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout)
+
+7
+00:00:07,824 --> 00:00:08,138
+21. setEncryptedText(findTestObject(null), "")
+

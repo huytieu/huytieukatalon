@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:00,003
+1. openBrowser("http://demoaut.katalon.com")
+
+2
+00:00:00,004 --> 00:00:01,391
+1. openBrowser(G_SiteURL)
+
+3
+00:00:03,492 --> 00:00:03,492
+1. testCaseName = testCaseContext.getTestCaseId()
+
+4
+00:00:03,492 --> 00:00:03,493
+5. if (testCaseName.contains("Skip"))
+

@@ -1,0 +1,158 @@
+2025-05-15 17:21:48.329 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/AzureExecution
+2025-05-15 17:21:48.466 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Nhi Ly
+2025-05-15 17:21:48.469 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = test
+2025-05-15 17:21:48.470 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = nhi.ly - localhost
+2025-05-15 17:21:48.470 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-05-15 17:21:48.471 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-05-15 17:21:48.473 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-05-15 17:21:49.177 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-15 17:21:49.178 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Main Test Cases/TC1_Verify Successful Login - Has Azure Link
+2025-05-15 17:21:49.387 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Username = John Doe
+2025-05-15 17:21:49.406 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Password = ThisIsNotAPassword
+2025-05-15 17:21:49.744 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-15 17:21:49.815 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 15, 2025 5:22:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 15, 2025 5:22:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.93. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-15 17:22:01.296 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 80019750c6c2194f6fb4f734d5d3555b
+2025-05-15 17:22:01.299 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.93
+2025-05-15 17:22:01.300 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-15 17:22:01.300 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-15 17:22:01.330 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-15 17:22:08.487 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2025-05-15 17:22:08.489 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2025-05-15 17:22:09.101 java[33012:12592743] +[IMKClient subclass]: chose IMKClient_Modern
+2025-05-15 17:22:09.102 java[33012:12592743] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+2025-05-15 17:22:09.385 DEBUG Verify Successful Login - Has Azure Link - 1: comment("Story: Login to CURA system")
+2025-05-15 17:22:09.476 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Story: Login to CURA system
+2025-05-15 17:22:09.485 DEBUG Verify Successful Login - Has Azure Link - 2: comment("Given that the user has the valid login information")
+2025-05-15 17:22:09.491 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Given that the user has the valid login information
+2025-05-15 17:22:09.493 DEBUG Verify Successful Login - Has Azure Link - 3: openBrowser(G_SiteURL)
+2025-05-15 17:22:10.011 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-05-15 17:22:10.136 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-15 17:22:10.140 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 15, 2025 5:22:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 15, 2025 5:22:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.93. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-15 17:22:15.953 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3ccfd420fcc10c4f1539df0d90238203
+2025-05-15 17:22:15.959 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.93
+2025-05-15 17:22:15.961 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-15 17:22:15.962 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-15 17:22:15.966 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-15 17:22:22.429 DEBUG Verify Successful Login - Has Azure Link - 4: click(findTestObject("Page_CuraHomepage/btn_MakeAppointment"))
+2025-05-15 17:22:25.098 DEBUG Verify Successful Login - Has Azure Link - 5: setText(findTestObject("Page_Login/txt_UserName"), Username)
+2025-05-15 17:22:26.500 DEBUG Verify Successful Login - Has Azure Link - 6: setText(findTestObject("Page_Login/txt_Password"), Password)
+2025-05-15 17:22:27.503 DEBUG Verify Successful Login - Has Azure Link - 7: comment("When he logins to CURA system")
+2025-05-15 17:22:27.508 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - When he logins to CURA system
+2025-05-15 17:22:27.511 DEBUG Verify Successful Login - Has Azure Link - 8: click(findTestObject("Page_Login/btn_Login"))
+2025-05-15 17:22:29.891 DEBUG Verify Successful Login - Has Azure Link - 9: comment("Then he should be able to login successfully")
+2025-05-15 17:22:29.897 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Then he should be able to login successfully
+2025-05-15 17:22:29.900 DEBUG Verify Successful Login - Has Azure Link - 10: landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout)
+2025-05-15 17:22:30.361 DEBUG Verify Successful Login - Has Azure Link - 11: closeBrowser()
+2025-05-15 17:22:30.487 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2025-05-15 17:22:32.537 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login - Has Azure Link' .
+2025-05-15 17:22:32.541 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Main Test Cases/TC1_Verify Successful Login - Has Azure Link
+2025-05-15 17:22:32.554 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-15 17:22:32.555 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common Test Cases/Login
+2025-05-15 17:22:32.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Username = John Doe
+2025-05-15 17:22:32.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Password = ThisIsNotAPassword
+2025-05-15 17:22:32.610 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-15 17:22:32.615 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 15, 2025 5:22:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 15, 2025 5:22:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.93. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-15 17:22:38.407 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1def0c0183e962c25e9c4a4a7bf0af56
+2025-05-15 17:22:38.410 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.93
+2025-05-15 17:22:38.410 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-15 17:22:38.410 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-15 17:22:38.411 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-15 17:22:45.253 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2025-05-15 17:22:45.253 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2025-05-15 17:22:45.374 DEBUG testcase.Login                           - 1: click(findTestObject("Page_CuraHomepage/btn_MakeAppointment"))
+2025-05-15 17:22:47.831 DEBUG testcase.Login                           - 2: setText(findTestObject("Page_Login/txt_UserName"), Username)
+2025-05-15 17:22:49.131 DEBUG testcase.Login                           - 3: setText(findTestObject("Page_Login/txt_Password"), Password)
+2025-05-15 17:22:50.222 DEBUG testcase.Login                           - 4: click(findTestObject("Page_Login/btn_Login"))
+2025-05-15 17:22:52.665 DEBUG testcase.Login                           - 5: landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout)
+2025-05-15 17:22:53.085 DEBUG testcase.Login                           - 6: setEncryptedText(findTestObject(null), "")
+2025-05-15 17:22:53.092 WARN  c.k.k.core.testobject.ObjectRepository   - Test object id is null
+2025-05-15 17:22:53.116 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist
+2025-05-15 17:22:53.379 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$5.call(Unknown Source)
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747304501870.run(TempTestSuite1747304501870.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$5.call(Unknown Source)
+	at Script1482850550002.run(Script1482850550002.groovy:35)
+	... 16 more
+)
+2025-05-15 17:22:53.392 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Common Test Cases/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$5.call(Unknown Source)
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1747304501870.run(TempTestSuite1747304501870.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+2025-05-15 17:22:53.399 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2025-05-15 17:22:55.420 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/Common Test Cases/Login' .
+2025-05-15 17:22:55.423 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common Test Cases/Login
+2025-05-15 17:22:55.574 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-05-15 17:22:55.574 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/AzureExecution
+2025-05-15 17:22:55.574 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Visual Testing,Chrome 137.0.7151.69,,,12-06-2025 23:39:14,12-06-2025 23:40:25,1m - 10.883s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Chrome 137.0.7151.69,,,12-06-2025 23:39:14,12-06-2025 23:39:14,0.041s,PASSED
+,,,,,,,
+Test Cases/TestOps Visual Testing/Verify Login Page - Has view port,Chrome 137.0.7151.69,,,12-06-2025 23:39:59,12-06-2025 23:40:25,26.011s,PASSED
+Start listener action : beforeTestCase,Chrome 137.0.7151.69,,,12-06-2025 23:39:59,12-06-2025 23:39:59,0.001s,PASSED
+Start listener action : openBrowser,Chrome 137.0.7151.69,,,12-06-2025 23:39:59,12-06-2025 23:40:08,8.912s,PASSED
+Start listener action : enableSauceLabs,Chrome 137.0.7151.69,,,12-06-2025 23:40:08,12-06-2025 23:40:08,0.001s,PASSED
+"openBrowser(""https://platform.qa.katalon.com"")",Chrome 137.0.7151.69,,,12-06-2025 23:40:08,12-06-2025 23:40:19,11.374s,PASSED
+"captureArea = new org.openqa.selenium.Rectangle(100, 200, 300, 150)",Chrome 137.0.7151.69,,,12-06-2025 23:40:19,12-06-2025 23:40:19,0.001s,PASSED
+"waitForElementVisible(findTestObject(""TestOpsPage/lblLogIn""), 0)",Chrome 137.0.7151.69,,,12-06-2025 23:40:19,12-06-2025 23:40:19,0.282s,PASSED
+"setViewPortSize(1920, 1080)",Chrome 137.0.7151.69,,,12-06-2025 23:40:19,12-06-2025 23:40:21,1.512s,WARNING
+"click(findTestObject(""TestOpsPage/ContinueWithEmail""))",Chrome 137.0.7151.69,,,12-06-2025 23:40:21,12-06-2025 23:40:21,0.295s,PASSED
+"takeAreaScreenshotAsCheckpoint(""areaCheckpoint"", captureArea)",Chrome 137.0.7151.69,,,12-06-2025 23:40:21,12-06-2025 23:40:22,0.437s,PASSED
+"takeElementScreenshotAsCheckpoint(""elementCheckpoint"", findTestObject(""TestOpsPage/email""))",Chrome 137.0.7151.69,,,12-06-2025 23:40:22,12-06-2025 23:40:22,0.527s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""fullCheckpoint"")",Chrome 137.0.7151.69,,,12-06-2025 23:40:22,12-06-2025 23:40:23,0.595s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 137.0.7151.69,,,12-06-2025 23:40:23,12-06-2025 23:40:23,0.000s,PASSED
+Video,Chrome 137.0.7151.69,,,12-06-2025 23:40:25,12-06-2025 23:40:25,0.000s,PASSED

@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Main Test Cases/TC1_Verify Successful Login - Rename KS 1","testCaseId":"Test Cases/Main Test Cases/TC1_Verify Successful Login - Rename KS 1","iterationVariableName":""}
+{"testCaseName":"Test Cases/Main Test Cases/TC4_Verify Successful Error","testCaseId":"Test Cases/Main Test Cases/TC4_Verify Successful Error","iterationVariableName":""}
+{"testCaseName":"Test Cases/Main Test Cases/TC7_Verify Successful Failed","testCaseId":"Test Cases/Main Test Cases/TC7_Verify Successful Failed","iterationVariableName":"","bindedValues":{"Username":"\u0027John Doe\u0027","Password":"\u0027ThisIsNotAPassword\u0027"}}
+{"testCaseName":"Test Cases/Main Test Cases/TC7_Verify Successful Skip","testCaseId":"Test Cases/Main Test Cases/TC7_Verify Successful Skip","iterationVariableName":""}

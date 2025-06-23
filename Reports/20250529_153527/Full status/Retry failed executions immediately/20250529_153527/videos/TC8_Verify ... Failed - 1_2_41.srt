@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,002
+5. maximizeWindow()
+
+2
+00:00:00,002 --> 00:00:07,695
+1. openBrowser(G_SiteURL)
+
+3
+00:00:07,699 --> 00:00:08,518
+5. click(findTestObject("Page_CuraHomepage/btn_MakeAppointment"))
+
+4
+00:00:08,519 --> 00:00:09,115
+9. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+5
+00:00:09,115 --> 00:00:09,507
+13. verifyTextPresent("abc 123", false)
+
+6
+00:00:11,614 --> 00:00:11,615
+1. testCaseName = testCaseContext.getTestCaseId()
+
+7
+00:00:11,616 --> 00:00:11,617
+5. if (testCaseName.contains("Skip"))
+

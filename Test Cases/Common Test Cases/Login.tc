@@ -45,7 +45,6 @@ Expected result:
       <properties>
          <entry>
             <key>featureArea</key>
-            <value>Appointment</value>
          </entry>
          <entry>
             <key>testType</key>

@@ -49,6 +49,7 @@ Expected result:
          </entry>
          <entry>
             <key>testType</key>
+            <value>UI</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
